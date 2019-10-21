@@ -134,7 +134,7 @@ describe "#display_board in 'lib/display_board.rb" do
       expect(rows[2]).to eq(" O | X | X ")
       expect(rows[3]).to eq("-----------")
       expect(rows[4]).to eq(" O | X | O ")
-    end
+    
 
     it 'prints an entire board full of Xs' do
       # Should you want to write your own test for this situation,
