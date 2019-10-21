@@ -135,7 +135,7 @@ describe "#display_board in 'lib/display_board.rb" do
       expect(rows[3]).to eq("-----------")
       expect(rows[4]).to eq(" O | X | O ")
 
-
+    end
     it 'prints an entire board full of Xs' do
       # Should you want to write your own test for this situation,
       # read the following code and comments.
@@ -161,6 +161,7 @@ describe "#display_board in 'lib/display_board.rb" do
       expect(rows[3]).to eq("-----------")
       expect(rows[4]).to eq(" X | X | X ")
 
+    end
       # You would code that expectation with:
       # expect(output).to include(" X | X | X ")
       # meaning you expect the entire output to at least include a matching row.
@@ -203,8 +204,9 @@ describe "#display_board in 'lib/display_board.rb" do
 
       output = capture_puts{ display_board(board) } if defined?(display_board)
       rows = output.split("\n")
+    end
       # *** Comment the line below by adding a # at the line start ***
       #expect(true).to be(true)
-    end
+    
   end
 end
