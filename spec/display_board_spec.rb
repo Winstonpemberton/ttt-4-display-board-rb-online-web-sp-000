@@ -195,7 +195,7 @@ describe "#display_board in 'lib/display_board.rb" do
       expect(rows[3]).to eq("-----------")
       expect(rows[4]).to eq(" O | O | O ")
 
-    end
+    
 
       board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
 
